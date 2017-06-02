@@ -1,0 +1,24 @@
+{
+  "name": "media-crawler",
+  "version": "1.0.0",
+  "description": "Find audio/video links in a webpage",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anadahalli/media-crawler.git"
+  },
+  "author": "Ashwath Nadahalli",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/anadahalli/media-crawler/issues"
+  },
+  "homepage": "https://github.com/anadahalli/media-crawler#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.1",
+    "phantom": "^2.1.21",
+    "request": "^2.81.0"
+  }
+}
